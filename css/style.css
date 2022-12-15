@@ -23,12 +23,17 @@ img {
 
 .col>h2{
     padding-bottom: 5%;
-    font-size: 46px;   
+    font-size: 40px; 
+    font-family: 'Open Sans', sans-serif;  
 }
 
 .col>p{
     font-size: 18px;
-    line-height: 24px;
+    line-height: 28px;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /*header*/
@@ -59,10 +64,6 @@ button{
     border: none;
 }
 
-/*.login.button{
-    border: none;
-}*/
-
 /* style primo contenitore*/
 .little-container{
     max-width: 800px;
@@ -73,8 +74,8 @@ button{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     color: white;
-    min-height: 500px;
-    padding: 100px;
+    min-height: 600px;
+    display: flex;
     align-items: center;
 }
 
@@ -85,10 +86,10 @@ button{
 }
 
 .row-first button{
-    margin: 10px;    
+    margin: 15px 5px;   
 }
 
-.terzo .violet.button:before{
+.arrow.button:before{
     content: '\1F817';
     display:inline-block;
     width: 10px;
@@ -124,6 +125,7 @@ section>.terzo{
     background-size: cover;
     padding: 2%;
     font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .violet.button{

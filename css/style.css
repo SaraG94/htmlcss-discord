@@ -17,24 +17,33 @@ img {
     margin: 0 auto;
 }
 
+.section{
+    padding: 50px 0;
+}
+
+/*header*/
 .container>.row-3{
     justify-content: space-between;
     align-items: center;
 }
 
-.debug> header{
+.main-header{
     min-height: 50px;
-    background-color: lightskyblue; 
+    background-color:#255EE9; 
     padding: 20px;
+    color: white;
 }
 
-.debug .row-3>.col{
-    background-color: darkgoldenrod;
-    border: 2px dashed black;
+.row-3 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
 }
 
-.section{
-    padding: 50px 0;
+.login-button{
+    padding: 5px;
+    border-radius: 50px;
+    border-color: white;
 }
 
 /* style primo contenitore*/

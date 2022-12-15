@@ -36,8 +36,11 @@ img {
 
 .row-3 ul{
     display: flex;
-    list-style-type: none;
     gap: 30px;
+}
+
+ul{
+    list-style-type: none;
 }
 
 button{
@@ -130,19 +133,48 @@ h2.scarica{
 }
 
 /*footer*/
-
-.debug footer{
+/*select{
+    border: none;
     background-color: #23272A;
+    color: white;
+}*/
+
+footer{
+    background-color: #23272A;
+    color: white;
 }
 
-.debug .row-5>.col{
-    background-color: #20B2AA;
-    border: 2px dashed white;
-    min-height: 400px;
+.col-28>.languages{
+    color: #7289DA;
+    font-size: 36px;
+    padding-bottom: 5%;
 }
 
-.debug .row-5>.col-28{
-    background-color: #F08080;
+footer .ita::after{
+    content: '\02C5';
+    display: inline-block;
+}
+
+footer img.flag{
+    width: 20px;
+}
+
+footer .fa{
+    color: white;
+    padding: 5px;
+}
+
+footer ul{
+    color: #7289DA;
+    line-height: 36px; 
+}
+
+footer ul>li{
+    color: white;
+}
+
+.row-5>.col{
+      min-height: 400px;
 }
 
 footer .container.section{

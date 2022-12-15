@@ -21,6 +21,16 @@ img {
     padding: 50px 0;
 }
 
+.col>h2{
+    padding-bottom: 5%;
+    font-size: 46px;   
+}
+
+.col>p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
 /*header*/
 .container>.row-3{
     justify-content: space-between;
@@ -46,11 +56,12 @@ ul{
 button{
     padding: 5px;
     border-radius: 50px;
-}
-
-.login.button{
     border: none;
 }
+
+/*.login.button{
+    border: none;
+}*/
 
 /* style primo contenitore*/
 .little-container{
@@ -73,30 +84,19 @@ button{
     text-align: center;
 }
 
-.col>h2{
-    padding-bottom: 5%;   
-}
-
 .row-first button{
     margin: 10px;    
 }
 
-.mac.button::before{
+.terzo .violet.button:before{
     content: '\1F817';
     display:inline-block;
     width: 10px;
 }
 
-.mac.button{
-    border: none;
-    padding: 5px
-}
-
 .open.button{
     background-color: #23272A;
-    border: none;
     color: white;
-    padding: 5px
 }
 
 /*stile secondo, terzo, quarto contenitore*/
@@ -119,16 +119,16 @@ section>.terzo{
 
 /*quinto contenitore*/
 
-h2.scarica{
+.col h2.scarica{
     background-image: url('../img/stars.svg');
     background-size: cover;
     padding: 2%;
+    font-size: 36px;
 }
 
-.terzo .mac.button{
+.violet.button{
     background-color: #7289DA;
     color: white;
-    border: none;
     padding: 10px;
 }
 
@@ -181,10 +181,6 @@ footer .container.section{
     padding: 10px 0 50px;
 }
 
-footer .ultimo.section{
-    padding: 50px 0 0;
-}
-
 .row-5>.col{
     flex-basis: calc(100% /6);
 }
@@ -194,22 +190,11 @@ footer .ultimo.section{
 }
 
 /*ultimo container*/
-.debug .ultimo{
-    border-top: 1px solid white;
-}
-
-.debug .container.last>.row-last{
-    background-color: #76EAC3;
-}
-
-.debug .row-last>.col{
-    background-color: pink;
-    border: 2px dashed black;
-    padding:2px;
-}
 
 .container>.row-last{
     justify-content: space-between;
     align-items: center;
     min-height: 50px;
+    border-top: 1px solid #414B6C;
+    padding: 20px 0 30px;
 }

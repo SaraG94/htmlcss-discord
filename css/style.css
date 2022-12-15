@@ -71,7 +71,7 @@ button{
 }
 
 .col>h2{
-    padding: 5%;    
+    padding-bottom: 5%;   
 }
 
 .row-first button{
@@ -94,22 +94,9 @@ button{
     color: white;
 }
 
-
 /*stile secondo, terzo, quarto contenitore*/
-.debug .row-2>.col{
-    border: 2px dashed black;
-    min-height: 300px;
-}
 
-.debug .row-2>.col-60{
-    background-color: rgb(59, 164, 230);
-}
-
-.debug .row-2>.col-40{
-    background-color: pink;
-}
-
-.debug section>.terzo{
+section>.terzo{
     background-color: lightgray;
 }
 

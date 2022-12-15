@@ -61,13 +61,13 @@ button{
     color: white;
     min-height: 500px;
     padding: 100px;
-    text-align: center;
     align-items: center;
 }
 
 .row-first>.col{
     flex-basis: 100%;
     line-height: 30px;
+    text-align: center;
 }
 
 .col>h2{
@@ -114,10 +114,6 @@ section>.terzo{
 
 /*quinto contenitore*/
 
-.debug .container.green .col{
-    background-color: green;
-    min-height: 500px;
-}
 
 /*footer*/
 

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.row{
+    display:flex
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container>.row-3{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debug> header{
+    min-height: 50px;
+    background-color: lightskyblue; 
+    padding: 20px;
+}
+
+.debug .row-3>.col{
+    background-color: darkgoldenrod;
+    border: 2px dashed black;
+}
+
+.section{
+    padding: 50px 0;
+}
+
+/* style primo contenitore*/
+.little-container{
+    max-width: 800px;
+    margin: 0 auto;    
+}
+
+.debug .first{
+    background-color: blue;
+    min-height: 150px;
+    padding: 20px;
+}
+
+.debug .row-first>.col{
+    background-color: palevioletred;
+    min-height: 150px;
+    border: 2px dashed black;
+}
+
+.row-first>.col{
+    flex-basis: 100%;
+}
+
+/*stile secondo, terzo, quarto contenitore*/
+.debug .row-2>.col{
+    border: 2px dashed black;
+    min-height: 300px;
+}
+
+.debug .row-2>.col-60{
+    background-color: rgb(59, 164, 230);
+}
+
+.debug .row-2>.col-40{
+    background-color: pink;
+}
+
+.debug section>.terzo{
+    background-color: lightgray;
+}
+
+.row-2>.col-60{
+    flex-basis: 60%;
+}
+
+.row-2>.col-40{
+    flex-basis: 40%;
+}
+
+.row-2.reverse{
+    flex-direction: row-reverse;
+}
+
+/*quinto contenitore*/
+
+.debug .container.green .col{
+    background-color: green;
+    min-height: 500px;
+}
+
+/*footer*/
+
+.debug footer{
+    background-color: #23272A;
+}
+
+.debug .row-5>.col{
+    background-color: #20B2AA;
+    border: 2px dashed white;
+    min-height: 400px;
+}
+
+.debug .row-5>.col-28{
+    background-color: #F08080;
+}
+
+footer .container.section{
+    padding: 10px 0 50px;
+}
+
+footer .ultimo.section{
+    padding: 50px 0 0;
+}
+
+.row-5>.col{
+    flex-basis: calc(100% /6);
+}
+
+.row-5>.col-28{
+    flex-basis: calc(100% /3);
+}
+
+/*ultimo container*/
+.debug .ultimo{
+    border-top: 1px solid white;
+}
+
+.debug .container.last>.row-last{
+    background-color: #76EAC3;
+}
+
+.debug .row-last>.col{
+    background-color: pink;
+    border: 2px dashed black;
+    padding:2px;
+}
+
+.container>.row-last{
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+}

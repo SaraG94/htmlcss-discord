@@ -40,9 +40,12 @@ img {
     gap: 30px;
 }
 
-.login-button{
+button{
     padding: 5px;
     border-radius: 50px;
+}
+
+.login.button{
     border-color: white;
 }
 
@@ -52,21 +55,45 @@ img {
     margin: 0 auto;    
 }
 
-.debug .first{
-    background-color: blue;
-    min-height: 150px;
-    padding: 20px;
-}
-
-.debug .row-first>.col{
-    background-color: palevioletred;
-    min-height: 150px;
-    border: 2px dashed black;
+.first{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+    min-height: 500px;
+    padding: 100px;
+    text-align: center;
+    align-items: center;
 }
 
 .row-first>.col{
     flex-basis: 100%;
+    line-height: 30px;
 }
+
+.col>h2{
+    padding: 5%;    
+}
+
+.row-first button{
+    margin: 10px;    
+}
+
+.mac.button::before{
+    content: '\1F817';
+    display:inline-block;
+    width: 10px;
+}
+
+.mac.button{
+    border-color: white;
+}
+
+.open.button{
+    background-color: #23272A;
+    border-color: #23272A;
+    color: white;
+}
+
 
 /*stile secondo, terzo, quarto contenitore*/
 .debug .row-2>.col{

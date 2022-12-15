@@ -46,7 +46,7 @@ button{
 }
 
 .login.button{
-    border-color: white;
+    border: none;
 }
 
 /* style primo contenitore*/
@@ -85,19 +85,21 @@ button{
 }
 
 .mac.button{
-    border-color: white;
+    border: none;
+    padding: 5px
 }
 
 .open.button{
     background-color: #23272A;
-    border-color: #23272A;
+    border: none;
     color: white;
+    padding: 5px
 }
 
 /*stile secondo, terzo, quarto contenitore*/
 
 section>.terzo{
-    background-color: lightgray;
+    background-color: #F6F6F6;
 }
 
 .row-2>.col-60{
@@ -114,6 +116,18 @@ section>.terzo{
 
 /*quinto contenitore*/
 
+h2.scarica{
+    background-image: url('../img/stars.svg');
+    background-size: cover;
+    padding: 2%;
+}
+
+.terzo .mac.button{
+    background-color: #7289DA;
+    color: white;
+    border: none;
+    padding: 10px;
+}
 
 /*footer*/
 

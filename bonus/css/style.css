@@ -54,14 +54,47 @@ body{
     gap: 30px;
 }
 
+/***ul stlye****/
 ul{
     list-style-type: none;
 }
 
+footer ul{
+    color: #7289DA;
+    line-height: 36px; 
+}
+
+footer ul>li{
+    color: white;
+}
+
+
+/*button style*/
 button{
-    padding: 5px;
+    line-height: 30px;
+    padding: 0 15px;
     border-radius: 50px;
     border: none;
+}
+
+.row-first button{
+    margin: 15px 5px;   
+}
+
+.open.button{
+    background-color: #23272A;
+    color: white;
+}
+
+.arrow.button:before{
+    content: '\1F817';
+    display:inline-block;
+    width: 10px;
+}
+
+.violet.button{
+    background-color: #7289DA;
+    color: white;
 }
 
 /* style primo contenitore*/
@@ -73,8 +106,9 @@ button{
 .first{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center bottom;
     color: white;
-    min-height: 600px;
+    height: 600px;
     display: flex;
     align-items: center;
 }
@@ -83,21 +117,6 @@ button{
     flex-basis: 100%;
     line-height: 30px;
     text-align: center;
-}
-
-.row-first button{
-    margin: 15px 5px;   
-}
-
-.arrow.button:before{
-    content: '\1F817';
-    display:inline-block;
-    width: 10px;
-}
-
-.open.button{
-    background-color: #23272A;
-    color: white;
 }
 
 /*stile secondo, terzo, quarto contenitore*/
@@ -136,20 +155,14 @@ section>.terzo{
     font-family: 'Open Sans', sans-serif;
 }
 
-.violet.button{
-    background-color: #7289DA;
-    color: white;
-    padding: 10px;
-}
-
 /*footer*/
-select{
-    border: none;
+footer{
     background-color: #23272A;
     color: white;
 }
 
-footer{
+select{
+    border: none;
     background-color: #23272A;
     color: white;
 }
@@ -172,19 +185,6 @@ footer img.flag{
 footer .fa{
     color: white;
     padding: 5px;
-}
-
-footer ul{
-    color: #7289DA;
-    line-height: 36px; 
-}
-
-footer ul>li{
-    color: white;
-}
-
-.row-5>.col{
-    min-height: 400px;
 }
 
 footer .container.section{

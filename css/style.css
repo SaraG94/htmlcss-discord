@@ -57,11 +57,11 @@ body{
 /*****ul style****/
 ul{
     list-style-type: none;
+    line-height: 36px;
 }
 
-footer ul{
-    color: #7289DA;
-    line-height: 36px; 
+.menu>h4{
+    color: #7289DA; 
 }
 
 footer ul>li{
